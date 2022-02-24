@@ -34,11 +34,13 @@ body {
       align-items: flex-end;
       margin-top: -50px;
   }
+  
   .web-title{
-    color: #a48575;
+    color: #e0d9c9;
     font-size: 4.5em;
-    font-family: 'Cinzel Decorative', cursive;
-    font-weight: 400;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 200px;
+
   }
   .name1 {
       color: #a48575;
@@ -56,6 +58,10 @@ body {
       margin-top: -15px;
       margin-right: 180px;
   }
-  .profile {
-      float: left;
+  .main-flex {
+      display: flex;
+      display: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-left: 120px;
   }
