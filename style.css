@@ -1,11 +1,13 @@
-/*nnavbar styling*/
+body {
+    background-color: #0f0e0e;
+}
+/*navbar styling*/
 .navbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#a79c86;
-    border: 3px solid #392218;
+    background-color:#8a7b5e;
 }
 .nav-list{
     display: inline;
@@ -20,7 +22,7 @@
     text-decoration: none;
 }
 .nav-a:hover{
-    color: black;
+    color: #7b7c64;
 }
 .active {
     background-color: #04AA6D;
