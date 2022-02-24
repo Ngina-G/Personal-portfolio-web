@@ -15,7 +15,7 @@ body {
 }
 .nav-a{
     display: block;
-    padding: 2px;
+    padding: 0px;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
@@ -37,17 +37,19 @@ body {
   
   .web-title{
     color: #e0d9c9;
-    font-size: 4.5em;
+    font-size: 4em;
     font-family: 'Inconsolata', monospace;
-    margin-top: 200px;
-
+    justify-self: start;
+    align-self: center;
+    margin-left: 70px;
   }
   .name1 {
       color: #a48575;
       font-size: 4em;
       font-family: 'Cinzel Decorative', cursive;
       font-weight: 400;
-      margin-bottom: -18px;
+
+      margin-right: -80px;
     }
   .name2 {
       text-align: right;
@@ -55,13 +57,14 @@ body {
       font-size: 4em;
       font-family: 'Cinzel Decorative', cursive;
       font-weight: 700;
-      margin-top: -15px;
-      margin-right: 180px;
+      margin-bottom: -18px;
+      padding: 10px;
   }
   .main-flex {
       display: flex;
       display: row;
       justify-content: space-between;
       flex-wrap: wrap;
-      margin-left: 120px;
+      margin:30px;
+     /* margin-left: 120px; */
   }
