@@ -1,5 +1,7 @@
 body {
     background-color: #242223;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 200;
 }
 /*navbar styling*/
 .navbar{
@@ -15,7 +17,7 @@ body {
 }
 .nav-a{
     display: block;
-    padding: 0px;
+    padding-bottom: 10px;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
@@ -24,7 +26,7 @@ body {
     color: #7b7c64;
 }
 .active {
-    background-color: #04AA6D;
+    background-color:#7b7c64;
   }
   /*header*/
 .flex-header {
@@ -38,14 +40,33 @@ body {
   .web-title{
     color: #e0d9c9;
     font-size: 4em;
-    font-family: 'Inconsolata', monospace;
-    justify-self: start;
-    align-self: center;
-    margin-left: 70px;
+    font-family: 'Barlow', sans-serif;
+    text-align: justify;
+    justify-self: center;
+    align-self: center; 
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #242223, #e0d9c9, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
   }
   .name1 {
       color: #a48575;
-      font-size: 4em;
+      font-size: 3.5em;
       font-family: 'Cinzel Decorative', cursive;
       font-weight: 400;
 
@@ -54,11 +75,16 @@ body {
   .name2 {
       text-align: right;
       color: #a48575;
-      font-size: 4em;
+      font-size: 3em;
       font-family: 'Cinzel Decorative', cursive;
       font-weight: 700;
-      margin-bottom: -18px;
+      margin-bottom: -10px;
+      margin-right: 40px;
       padding: 10px;
+  }
+  .profile {
+      margin: -10px;
+      box-shadow: 3px 3px 35px 13px  #000;
   }
   .main-flex {
       display: flex;
