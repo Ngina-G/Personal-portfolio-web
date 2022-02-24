@@ -1,7 +1,11 @@
 body {
     background-color: #242223;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 200;
+    font-weight: 200;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-left: 70px;
 }
 /*navbar styling*/
 .navbar{
@@ -10,10 +14,14 @@ body {
     padding: 0;
     overflow: hidden;
 }
+.nav{
+    display: flex;
+    flex-direction: row;
+    text-align:left ;
+    justify-content: space-evenly;
+}
 .nav-list{
     display: inline;
-    float: left;
-    padding-left: 50px;
 }
 .nav-a{
     display: block;
@@ -28,6 +36,7 @@ body {
 .active {
     background-color:#7b7c64;
   }
+
   /*header*/
 .flex-header {
       display: flex;
@@ -39,14 +48,16 @@ body {
   
   .web-title{
     color: #e0d9c9;
-    font-size: 4em;
+    font-size: 3.5em;
     font-family: 'Barlow', sans-serif;
     text-align: justify;
     justify-self: center;
     align-self: center; 
     position: relative;
+    margin-top: -50px;
+    margin-left: 20px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     overflow: hidden;
     background: linear-gradient(90deg, #242223, #e0d9c9, #000);
     background-repeat: no-repeat;
@@ -68,30 +79,30 @@ body {
   }
   .name1 {
       color: #a48575;
-      font-size: 3.5em;
+      font-size: 3em;
       font-family: 'Cinzel Decorative', cursive;
       font-weight: 400;
-
       margin-right: -80px;
+      margin-bottom: 80px;
     }
   .name2 {
       text-align: right;
       color: #a48575;
-      font-size: 3em;
+      font-size: 2.5em;
       font-family: 'Cinzel Decorative', cursive;
       font-weight: 700;
-      margin-bottom: -10px;
-      margin-right: 40px;
+      margin-bottom: 40px;
       padding: 10px;
   }
-  .profile {
-      margin: -10px;
-      box-shadow: 3px 3px 35px 13px  #000;
+  .profile-image {
+      box-shadow: 3px 3px 15px 8px  #000;
+      margin-top: 35px;
+      margin-bottom: 35px;
+      margin-right: 35px;
   }
   .main-flex {
       display: flex;
       display: row;
       justify-content: space-between;
       flex-wrap: wrap;
-      margin:30px;
   }
