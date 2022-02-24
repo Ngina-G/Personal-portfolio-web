@@ -7,7 +7,6 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#a48575;
 }
 .nav-list{
     display: inline;
@@ -33,13 +32,29 @@ body {
       flex-direction: row;
       justify-content: flex-end;
       align-items: flex-end;
+      margin-top: -50px;
+  }
+  .web-title{
+    color: #a48575;
+    font-size: 4.5em;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 400;
   }
   .name1 {
       color: #a48575;
-  }
+      font-size: 4em;
+      font-family: 'Cinzel Decorative', cursive;
+      font-weight: 400;
+      margin-bottom: -18px;
+    }
   .name2 {
       text-align: right;
       color: #a48575;
+      font-size: 4em;
+      font-family: 'Cinzel Decorative', cursive;
+      font-weight: 700;
+      margin-top: -15px;
+      margin-right: 180px;
   }
   .profile {
       float: left;
