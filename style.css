@@ -1,5 +1,5 @@
 body {
-    background-color: #0f0e0e;
+    background-color: #242223;
 }
 /*navbar styling*/
 .navbar{
@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#8a7b5e;
+    background-color:#a48575;
 }
 .nav-list{
     display: inline;
@@ -17,7 +17,7 @@ body {
 .nav-a{
     display: block;
     padding: 2px;
-    color: aliceblue;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
 }
@@ -26,4 +26,21 @@ body {
 }
 .active {
     background-color: #04AA6D;
+  }
+  /*header*/
+.flex-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-end;
+  }
+  .name1 {
+      color: #a48575;
+  }
+  .name2 {
+      text-align: right;
+      color: #a48575;
+  }
+  .profile {
+      float: left;
   }
