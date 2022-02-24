@@ -1,0 +1,27 @@
+/*nnavbar styling*/
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#a79c86;
+    border: 3px solid #392218;
+}
+.nav-list{
+    display: inline;
+    float: left;
+    padding-left: 50px;
+}
+.nav-a{
+    display: block;
+    padding: 2px;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+}
+.nav-a:hover{
+    color: black;
+}
+.active {
+    background-color: #04AA6D;
+  }
