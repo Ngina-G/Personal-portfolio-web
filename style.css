@@ -49,6 +49,10 @@ h4{
     color: #7b7c64;
     font-weight: 300;
 }
+.nav-llist:hover{
+  color: #7b7c64;
+  font-weight: 300;
+}
 .active {
   padding: 20px;
     background-color:#7b7c64;
@@ -64,7 +68,7 @@ h4{
   }
   
   .web-title{
-    color: #e0d9c9;
+    color: #e9d8cf;
     font-size: 3.5em;
     font-family: 'Barlow', sans-serif;
     text-align: justify;
@@ -72,20 +76,28 @@ h4{
     align-self: center; 
     position: relative;
     margin-top: -50px;
-    margin-left: 20px;
-    border: 1px solid #7b7c64;
+    margin-left: 90px;
     padding: 35px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    overflow: hidden;
-    background: linear-gradient(90deg, #242223, #e0d9c9, #000);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    animation: animate 4s linear infinite;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  .name1 {
+    
+      color: #a48575;
+      font-size: 3em;
+      font-family: 'Cinzel Decorative', cursive;
+      font-weight: 400;
+      margin-right: -80px;
+      margin-bottom: 80px;
+      position: relative;
+      background: linear-gradient(90deg, #242223, #a48575, #7b7c64);
+      background-repeat: no-repeat;
+      background-size: 80%;
+      animation: animate 5s linear infinite;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: rgba(255, 255, 255, 0);
   }
   
   @keyframes animate {
@@ -96,15 +108,6 @@ h4{
       background-position: 500%;
     }
   }
-  .name1 {
-    
-      color: #a48575;
-      font-size: 3em;
-      font-family: 'Cinzel Decorative', cursive;
-      font-weight: 400;
-      margin-right: -80px;
-      margin-bottom: 80px;
-    }
   .name2 {
       text-align: right;
       color: #a48575;
@@ -112,6 +115,24 @@ h4{
       font-family: 'Cinzel Decorative', cursive;
       font-weight: 700;
       padding: 10px;
+      position: relative;
+      background: linear-gradient(90deg, #242223, #a48575, #7b7c64);
+      background-repeat: no-repeat;
+      background-size: 80%;
+      animation: animate 6s linear infinite;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
   }
   .profile-image {
       box-shadow: 3px 3px 15px 8px  #000;
@@ -155,16 +176,13 @@ h4{
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: -20px;
 }
 .projects-paragraph{
   display: flex;
   flex-direction: column;
   text-align: justify;
   width: 200px;
-/*  padding-left: 30px;
-  padding-right: 30px;
-  border: 0.2px solid #a48575; */
 }
 .para-project-one{
   margin-left: 60px;
