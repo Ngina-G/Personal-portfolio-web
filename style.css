@@ -177,3 +177,20 @@ h4{
   margin-left: 60px;
   padding-left: 60px;
 }
+
+/*About me section*/
+.about-icon{
+  width: 90px;
+  height: 90px;
+  background-color: #a48575;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9%;
+}
+.icons-container{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
