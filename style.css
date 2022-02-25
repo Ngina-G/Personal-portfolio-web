@@ -31,8 +31,10 @@ body {
 }
 .nav-a:hover{
     color: #7b7c64;
+    font-weight: 300;
 }
 .active {
+  padding: 20px;
     background-color:#7b7c64;
   }
 
