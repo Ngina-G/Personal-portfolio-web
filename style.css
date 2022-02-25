@@ -10,8 +10,6 @@ body {
 /*navbar styling*/
 .navbar{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
 }
 .nav{
@@ -25,7 +23,8 @@ body {
 }
 .nav-a{
     display: block;
-    padding-bottom: 10px;
+    padding-top: -40px;
+    padding-bottom: 30px;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
@@ -43,7 +42,7 @@ body {
       flex-direction: row;
       justify-content: flex-end;
       align-items: flex-end;
-      margin-top: -50px;
+      margin-top: -80px;
   }
   
   .web-title{
@@ -56,6 +55,8 @@ body {
     position: relative;
     margin-top: -50px;
     margin-left: 20px;
+    border: 1px solid #7b7c64;
+    padding: 35px;
     text-transform: uppercase;
     letter-spacing: 2px;
     overflow: hidden;
@@ -99,6 +100,8 @@ body {
       margin-top: 35px;
       margin-bottom: 35px;
       margin-right: 35px;
+      border: 1px solid #7b7c64;
+      padding: 15px;
   }
   .main-flex {
       display: flex;
@@ -106,3 +109,6 @@ body {
       justify-content: space-between;
       flex-wrap: wrap;
   }
+
+  /*prjects section*/
+
