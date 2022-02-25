@@ -188,9 +188,13 @@ h4{
   justify-content: center;
   align-items: center;
   border-radius: 9%;
+  margin: 10px;
 }
 .icons-container{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   position: relative;
+  padding-left: 300px;
+  padding-right: 300px;
 }
