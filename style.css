@@ -27,6 +27,8 @@ h4{
 /*navbar styling*/
 .navbar{
   overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
 }
 .navbar a{
   float: left;
@@ -35,7 +37,7 @@ h4{
   padding-bottom: 30px;
   color: #ffffff;
   text-decoration: none;
-  transition: all 1s;
+  transition: all .5s;
   margin-top: 20px;
 }
 a:hover{
@@ -135,7 +137,7 @@ a:hover{
 .project-section-one{
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 40px;
@@ -143,7 +145,7 @@ a:hover{
 .project-section-two{
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 40px;
@@ -151,7 +153,7 @@ a:hover{
 .project-section-three{
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: -20px;
@@ -159,7 +161,7 @@ a:hover{
 .projects-paragraph{
   display: flex;
   flex-direction: column;
-  text-align: justify;
+  text-align: center;
   width: 200px;
 }
 .para-project-one{
@@ -237,4 +239,8 @@ a:hover{
 .card-text{
   margin-bottom: 1px;
   color: #ffffff;
+}
+.credit{
+  font-size: 6px;
+  color: #a48575;
 }
