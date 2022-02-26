@@ -23,27 +23,22 @@ h4{
   padding: 2px;
   margin-bottom: -5px;
 }
+ 
 /*navbar styling*/
 .navbar{
-    list-style-type: none;
-    overflow: hidden;
+  overflow: hidden;
+  margin-top: 20px;
 }
-.nav{
-    display: flex;
-    flex-direction: row;
-    text-align:left ;
-    justify-content: space-evenly;
+.navbar a{
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 1s;
 }
-.nav-list{
-    display: inline;
-}
-.nav-a{
-    display: block;
-    padding-bottom: 30px;
-    color: #ffffff;
-    text-decoration: none;
-}
-.nav-a:hover{
+.nav-a::hover{
     color: #7b7c64;
 }
 
@@ -53,7 +48,7 @@ h4{
       flex-direction: row;
       justify-content: flex-end;
       align-items: flex-end;
-      margin-top: -80px;
+      margin-top: -40px;
   }
   
   .web-title{
@@ -125,7 +120,7 @@ h4{
   }
   .profile-image {
       box-shadow: 3px 3px 15px 8px  #000;
-      margin-top: 35px;
+      margin-top: 90px;
       margin-right: 35px;
       border: 1px solid #7b7c64;
       padding: 15px;
@@ -213,4 +208,29 @@ h4{
   padding-left:170px;
   padding-right:170px;
   position: relative;
+}
+
+/*contacts section */
+.foot{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+}
+.card-img-top{
+  width: 260px;
+  height: 260px;
+  border: 1px solid #7b7c64;
+  align-self: center;
+}
+.card-body{
+  width: 260px;
+  height: 150px;
+  border: 1px solid #7b7c64;
+  text-align: center;
+  align-self: center;
 }
