@@ -38,7 +38,7 @@ h4{
   text-decoration: none;
   transition: all 1s;
 }
-.nav-a::hover{
+a:hover{
     color: #7b7c64;
 }
 
@@ -48,7 +48,7 @@ h4{
       flex-direction: row;
       justify-content: flex-end;
       align-items: flex-end;
-      margin-top: -40px;
+      margin-top: -65px;
   }
   
   .web-title{
@@ -229,8 +229,18 @@ h4{
 }
 .card-body{
   width: 260px;
-  height: 150px;
+  height: 180px;
   border: 1px solid #7b7c64;
   text-align: center;
   align-self: center;
+}
+.card-title{
+  margin-bottom: 1px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.card-text{
+  margin-bottom: 1px;
+  color: #ffffff;
 }
