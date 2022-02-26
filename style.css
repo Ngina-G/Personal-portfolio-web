@@ -218,13 +218,13 @@ h4{
   padding-bottom: 4rem;
 }
 .card-img-top{
-  width: 260px;
-  height: 260px;
+  width: 220px;
+  height: 240px;
   border: 1px solid #7b7c64;
   align-self: center;
 }
 .card-body{
-  width: 260px;
+  width: 220px;
   height: 200px;
   border: 1px solid #7b7c64;
   text-align: center;
