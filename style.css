@@ -27,7 +27,6 @@ h4{
 /*navbar styling*/
 .navbar{
   overflow: hidden;
-  margin-top: 20px;
 }
 .navbar a{
   float: left;
@@ -37,6 +36,7 @@ h4{
   color: #ffffff;
   text-decoration: none;
   transition: all 1s;
+  margin-top: 20px;
 }
 a:hover{
     color: #7b7c64;
@@ -124,12 +124,6 @@ a:hover{
       margin-right: 35px;
       border: 1px solid #7b7c64;
       padding: 15px;
-  }
-  .main-flex {
-      display: flex;
-      display: row;
-      justify-content: space-between;
-      flex-wrap: wrap;
   }
 
   /*projects section*/
