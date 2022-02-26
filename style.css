@@ -40,7 +40,7 @@ h4{
   transition: all .5s;
   margin-top: 20px;
 }
-a:hover{
+.navbar a:hover{
     color: #7b7c64;
 }
 
@@ -225,7 +225,7 @@ a:hover{
 }
 .card-body{
   width: 260px;
-  height: 180px;
+  height: 200px;
   border: 1px solid #7b7c64;
   text-align: center;
   align-self: center;
@@ -237,10 +237,25 @@ a:hover{
   font-size: 18px;
 }
 .card-text{
-  margin-bottom: 1px;
+  margin-bottom: 20px;
   color: #ffffff;
 }
 .credit{
   font-size: 6px;
   color: #a48575;
+}
+
+.fa{
+  padding: 10px;
+  margin: 8px 2px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #a48575;
+  color: #242223;
+  transition: all 0.3s;
+}
+.fa:hover{
+  background-color: #7b7c64;
+  border: 1px solid #e9d8cf;
 }
