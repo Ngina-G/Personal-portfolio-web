@@ -1,4 +1,4 @@
-<img align="center" src="https://github.com/Ngina-G/Ngina-G.github.io/blob/master/assets/icons/website%20logo%20new%20colors.svg" alt="LOGO" /> <br/>
+<img width="20%" align="center" src="https://github.com/Ngina-G/Ngina-G.github.io/blob/master/assets/icons/website%20logo%20new%20colors.svg" alt="LOGO" /> <br/>
 
 # Website
 A personal portfolio web-page created as a requirement for the Moringa Prep Module. It displays previous projects and contact information. 
@@ -25,7 +25,7 @@ HTML and CSS.
 GNU AFFERO GENERAL PUBLIC LICENSE
 Version 3, 19 November 2007
 
-### CONTACT ME
+### Contact Me
 If you have any questions or comments, 
 conatct me at Nginagitau11@outlook.com
 
