@@ -1,6 +1,4 @@
-<img width="20%" align="center" src="https://github.com/Ngina-G/Ngina-G.github.io/blob/master/assets/icons/website%20logo%20new%20colors.svg" alt="LOGO" /> <br/>
-
-# Website
+# Portfolio Website
 A personal portfolio web-page created as a requirement for the Moringa Prep Module. It displays previous projects and contact information. 
 <br/>
 ### By Ngina Gitau @Ngina-G
@@ -31,3 +29,5 @@ conatct me at Nginagitau11@outlook.com
 
 ### TO DO
 Include other technologies, like Bootstrap and React
+
+<img width="20%" align="center" src="https://github.com/Ngina-G/Ngina-G.github.io/blob/master/assets/icons/website%20logo%20new%20colors.svg" alt="LOGO" />
