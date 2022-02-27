@@ -161,7 +161,7 @@ h4{
 .projects-paragraph{
   display: flex;
   flex-direction: column;
-  text-align: initial;
+  text-align: justify;
   width: 200px;
 }
 .para-project-one{
