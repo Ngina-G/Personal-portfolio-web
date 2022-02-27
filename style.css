@@ -161,12 +161,18 @@ h4{
 .projects-paragraph{
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: initial;
   width: 200px;
 }
 .para-project-one{
   margin-left: 60px;
   padding-left: 60px;
+}
+.proj-link{
+  color: #a48575;
+}
+.proj-link:hover{
+  color: #ffffff;
 }
 
 /*About me section*/
@@ -176,7 +182,7 @@ h4{
   padding:100px;
   padding-top:1px;
   padding-bottom:10px;
-  text-align: justify;
+  text-align: center;
 }
 .icons-parent{
   display: flex;
