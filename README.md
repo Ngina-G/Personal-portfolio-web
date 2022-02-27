@@ -8,10 +8,12 @@ A personal portfolio web-page created as a requirement for the Moringa Prep Modu
 <br/>
 
 #### Check live demonstration <a href="https://ngina-g.github.io/"><strong>here</strong></a>
+Or visit the website here: https://www.nginagitau.com/
 
 ## Description
 This website gives a comprehensive view of my work as a Front-end developer. It includes active links of the projects I've done here in github, as well as a brief description of them. The website also includes a contact card also with active links.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8f29b6ad-4ebf-4dae-8844-2f7907afd816/deploy-status)](https://app.netlify.com/sites/kabonistudios/deploys)
 ### Known bugs
 The landing page is not mobile responsive affecting the entire page.
 But the bug is in the progress of being exterminated.
