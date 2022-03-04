@@ -7,8 +7,8 @@ A personal portfolio web-page created as a requirement for the Moringa Prep Modu
 ![Screenshot from 2022-02-27 15-18-59](https://user-images.githubusercontent.com/89702652/155882264-9e3ebc6f-33ea-466b-9886-51662d794de8.png)
 <br/>
 
-#### Check live demonstration <a href="https://ngina-g.github.io/"><strong>here</strong></a>
-Or visit the website here: https://www.nginagitau.com/
+#### Check live demonstration <a href="https://www.nginagitau.com/"><strong>here</strong></a>
+Or click the link in the about section of the project.
 
 ## Description
 This website gives a comprehensive view of my work as a Front-end developer. It includes active links of the projects I've done here in github, as well as a brief description of them. The website also includes a contact card also with active links.
